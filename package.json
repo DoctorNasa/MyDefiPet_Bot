@@ -1,0 +1,24 @@
+{
+  "name": "MyDefiPet_Bot",
+  "version": "0.0.1",
+  "description": "MDP HELPER BOT",
+  "main": "index.js",
+  "repository": "https://github.com/anik-ghosh-au7/MyDefiPet_Bot.git",
+  "author": "Anik Ghosh <tech.anikghosh@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "coingecko-api": "^1.0.10",
+    "dotenv": "^10.0.0",
+    "limiter": "^2.1.0",
+    "node-telegram-bot-api": "^0.53.0",
+    "web3": "^1.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
